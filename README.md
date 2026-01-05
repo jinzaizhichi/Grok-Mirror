@@ -110,7 +110,7 @@ POST: /v1/chat/completions
 
 | 参数名            | 类型    | 是否必须 | 描述                                                               |
 | ----------------- | ------- | -------- | ------------------------------------------------------------------ |
-| model             | string  | 是       | 模型名称 <br> `grok-3` `grok-3-thinking` <br> `grok-3-deepsearch` `grok-3-deepersearch` |
+| model             | string  | 是       | 模型名称 <br> `grok-3` `grok-4` `grok-4-thinking` |
 | messages          | array   | 是       | 消息内容                                                           |
 | stream            | boolean | 否       | 是否开启流式返回                                                   |
 
